@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="true" name="Suite">
+	<listeners>
+		<listener
+			class-name="com.demoWorkshopFrameWork.ListnerUtility.ListnersUtility"></listener>
+	</listeners>
+	
+	<test name="Test1">
+		<classes>
+			<class name="com.demoWorkShopFrameWork.WishList.PriceCheck" />
+			<class name="com.demoWorkShopFrameWork.WishList.AddToShoppingCart" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="Test2">
+		<classes>
+			<class name="com.demoWorkShopFrameWork.WishList.PriceCheck" />
+			<class name="com.demoWorkShopFrameWork.WishList.AddToShoppingCart" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
