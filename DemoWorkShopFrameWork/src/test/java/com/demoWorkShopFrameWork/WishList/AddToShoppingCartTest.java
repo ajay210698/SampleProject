@@ -13,7 +13,7 @@ import com.demoWorkshopFrameWork.Genric.threadLocalUtility.UtilityClassObject;
 import com.google.common.collect.ObjectArrays;
 import com.pom.LogedInPage;
 
-public class AddToShoppingCart extends BaseClassUtility {
+public class AddToShoppingCartTest extends BaseClassUtility {
 	@Test(dataProvider = "DataProvider")
 	public void addComputerTo(String name) throws Throwable {
 		

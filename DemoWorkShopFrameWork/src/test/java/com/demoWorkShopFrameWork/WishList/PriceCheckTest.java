@@ -9,7 +9,7 @@ import com.WorkShopFrameWork.BaseClass.BaseClassUtility;
 import com.aventstack.extentreports.Status;
 import com.demoWorkshopFrameWork.Genric.threadLocalUtility.UtilityClassObject;
 
-public class PriceCheck extends BaseClassUtility {
+public class PriceCheckTest extends BaseClassUtility {
 	@Test(dataProvider = "DataProvider")
 	public void addComputerTo(String name) throws Throwable {
 		
